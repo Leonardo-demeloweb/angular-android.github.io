@@ -151,7 +151,7 @@ var DataTableComponent = (function () {
         this.userService.getUserByEmail(email).subscribe(function (user) {
             _this.localStorageService.userEditAtual = JSON.parse(JSON.parse(JSON.stringify(user))._body);
             console.log(_this.localStorageService.userEditAtual);
-            _this.router.navigate(['forms/wizard2']);
+            _this.router.navigate(['forms/wizard2/']);
         }, function (error) { return console.log(error); });
     };
     DataTableComponent = __decorate([

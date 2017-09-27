@@ -5672,6 +5672,31 @@ h2.title {
 .sidebar .user .info > a {
   padding-left: 70px;
 }
+.sidebar[data-background-color="imersa"] {
+  background-color: #fed288;
+}
+.sidebar[data-background-color="imersa"] .nav li > a {
+  color: #FFFFFF;
+}
+.sidebar[data-background-color="imersa"] .nav li i {
+  color: rgba(255, 255, 255, 0.8);
+}
+.sidebar[data-background-color="imersa"] .nav li.active > [data-toggle="collapse"], .sidebar[data-background-color="imersa"] .nav li:hover > [data-toggle="collapse"] {
+  color: #FFFFFF;
+}
+.sidebar[data-background-color="imersa"] .nav li.active > [data-toggle="collapse"] i, .sidebar[data-background-color="imersa"] .nav li:hover > [data-toggle="collapse"] i {
+  color: rgba(255, 255, 255, 0.8);
+}
+.sidebar[data-background-color="imersa"] .user a {
+  color: #FFFFFF;
+}
+.sidebar[data-background-color="imersa"] .simple-text {
+  color: #FFFFFF;
+}
+.sidebar[data-background-color="imersa"] .sidebar-background:after {
+  background: #fed288;
+  opacity: .8;
+}
 .sidebar[data-background-color="black"] {
   background-color: #191919;
 }
@@ -7034,7 +7059,7 @@ h2.title {
   }
 }
 body {
-  background-color: #EEEEEE;
+  background-color:#EEEEEE;
   color: #3C4858;
 }
 body.inverse {
